@@ -1,0 +1,10 @@
+body {
+    position: relative;
+}
+
+.div-container {
+    position: relative;
+    margin: 0px;
+    left: 0px;
+    text-align: center;
+}
