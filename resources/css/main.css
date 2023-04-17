@@ -1,10 +1,15 @@
 body {
     position: relative;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 
 .div-container {
     position: relative;
-    margin: 0px;
-    left: 0px;
     text-align: center;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 15%;
+    width: 50%;
+    font-size: 24px;
+
 }
