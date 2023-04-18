@@ -1,15 +1,28 @@
 body {
     position: relative;
-    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    background: rgb(57, 74, 200);
+    background: radial-gradient(circle, rgb(54, 42, 225) 0%, rgb(14, 16, 58)  100%);
+    color: white;
 }
-
 .div-container {
+    background-color: black;
+    color: white;
     position: relative;
     text-align: center;
-    border: 3px solid black;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 10%;
     width: 50%;
     font-size: 24px;
+    border: 5px solid rgb(54, 42, 225);
+    border-radius: 15px 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
+#logginn-box {
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 25%;
+    position: relative;
+    margin: auto;
+    left: 0px;
 }

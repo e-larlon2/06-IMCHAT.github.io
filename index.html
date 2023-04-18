@@ -12,13 +12,29 @@
     <title>Document</title>
 </head>
 <body>
+    <main>
     <div class="div-container">
         <h1>IM CHAT</h1>
-
-
-
-        
+        <h3>Logg inn</h3>
+        <div id="logginn-box">
+            <label>Burkernavn</label><br>
+            <input id="navn" type="text"><br>
+            <label>Passord</label><br>
+            <input id="passord" type="number"><br>
+            <button type="submit"><a href="resources/html/homepage.html">Logg inn</a></button><br>
+        </div>
+        <button id="btnCreate" onclick="createUser()">Opprett bruker</button>
     </div>
-    
+</main>
+
+
+    <!-- Må hente inn eksterne rammeverk/bibliotek for å kunne laste inn js frå anna fil-->
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore-compat.js"></script>
+
+    <script src="resources/js/database.js"></script>
 </body>
 </html>
