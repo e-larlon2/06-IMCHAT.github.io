@@ -1,9 +1,14 @@
+* {
+    font-family: 'Lato', 'sans-serif';
+}
+
 body {
     position: relative;
     background: rgb(57, 74, 200);
-    background: radial-gradient(circle, rgb(54, 42, 225) 0%, rgb(14, 16, 58)  100%);
+    background: radial-gradient(circle, rgb(54, 42, 225) 0%, rgb(14, 16, 58) 100%);
     color: white;
 }
+
 .div-container {
     background-color: black;
     color: white;
@@ -17,13 +22,4 @@ body {
     border-radius: 15px 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 10%;
-}
-
-#logginn-box {
-    border: 3px solid white;
-    border-radius: 15px;
-    width: 25%;
-    position: relative;
-    margin: auto;
-    left: 0px;
 }

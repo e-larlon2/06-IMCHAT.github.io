@@ -1,21 +1,22 @@
 // HER LEGGER DU INN INFOEN DIN FRÅ FIREBASE
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBcZHr3QR-xLO7bw9suFkedp2rTzhmxoiM",
-    authDomain: "imchat-bd8ff.firebaseapp.com",
-    projectId: "imchat-bd8ff",
-    storageBucket: "imchat-bd8ff.appspot.com",
-    messagingSenderId: "1027558483065",
-    appId: "1:1027558483065:web:3d4512b878da8b9ae420a8"
+    apiKey: "AIzaSyB0rhX72Kv__d8j4bBHY6BUte4crfGmxfk",
+    authDomain: "imchat-5101a.firebaseapp.com",
+    projectId: "imchat-5101a",
+    storageBucket: "imchat-5101a.appspot.com",
+    messagingSenderId: "176522722962",
+    appId: "1:176522722962:web:3b51f6123e5535b22d704b"
   };
 ///////////////////////////////////////////////////////////
 
 /* Firebase config */
 const db = firebaseApp.firestore();
+const auth = firebaseApp.auth(); 
 
 // Henter info frå input-feltet name, og oppretter bruker i collection "users" 
 function createUser() {
-    const name = document.getElementById("name").value;  
+    const name = document.getElementById("name").value; 
     firebase.firestore().collection("users").doc().set({
             name: name
         })
