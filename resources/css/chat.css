@@ -1,0 +1,12 @@
+.chat-div {
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+    border: 1px solid #fff;
+}
+
+.chat-div input {
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+}
