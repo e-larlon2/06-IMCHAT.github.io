@@ -5,10 +5,17 @@
     border-radius: 15px 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin: 10% auto;
-    margin-left: 28%;
+    margin-right: 10%;
     width: 20%;
     padding: 60px;
     position: relative;
 }
 
+.username, .password {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,0,2);
+    padding: 10px;
+    margin: 10px 0;
+}
 /*lag en sign up boks ved siden av login boksen*/

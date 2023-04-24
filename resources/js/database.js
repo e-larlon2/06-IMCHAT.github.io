@@ -1,12 +1,12 @@
 // HER LEGGER DU INN INFOEN DIN FRÅ FIREBASE
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB0rhX72Kv__d8j4bBHY6BUte4crfGmxfk",
-    authDomain: "imchat-5101a.firebaseapp.com",
-    projectId: "imchat-5101a",
-    storageBucket: "imchat-5101a.appspot.com",
-    messagingSenderId: "176522722962",
-    appId: "1:176522722962:web:3b51f6123e5535b22d704b"
+    apiKey: "AIzaSyA0XpKBRZZ8sjFIMtCFj3srR3oYTvD1hVc",
+    authDomain: "imchat-59439.firebaseapp.com",
+    projectId: "imchat-59439",
+    storageBucket: "imchat-59439.appspot.com",
+    messagingSenderId: "1056229018939",
+    appId: "1:1056229018939:web:ac37d090a0999d1ceb7b1e"
   };
 ///////////////////////////////////////////////////////////
 
