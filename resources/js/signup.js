@@ -36,13 +36,16 @@ function login() {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value; 
   auth.signInWithEmailAndPassword(email, password)
-  .then((userCredentials) => {
-      sessionStorage.setItem("uid", userCredentials.user.uid)
-      window.location.href = "./homepage.html"
-  })
-  .catch((error) => {
-      console.error("Failed: " + error.message); 
-  })
+    if (value == email && password) {
+        then((userCredentials) => {
+        sessionStorage.setItem("uid", userCredentials.user.uid)
+        window.location.href = "/resources/html/homepage.html?email=" + email
+     })} else {
+        alert("Feil inlogging!")
+    
+    .catch((error) => {
+    console.error("Failed: " + error.message);      
+  }) }
 }
 
 // Oppretter bruker med epost og passord 
@@ -61,7 +64,7 @@ function signUp() {
           userId: userCredentials.user.uid
       })
       .then(function () {
-          window.location.href = "./homepage.html"; 
+          window.location.href = "/resources/html/homepage.html?email=" + email; 
       })
 
       console.log(res.userCredentials)
