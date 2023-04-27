@@ -4,8 +4,8 @@
 
 body {
     position: relative;
-    background: rgb(57, 74, 200);
-    background: radial-gradient(circle, rgb(54, 42, 225) 0%, rgb(14, 16, 58) 100%);
+    /*background: rgb(57, 74, 200);
+    background: radial-gradient(circle, rgb(54, 42, 225) 0%, rgb(14, 16, 58) 100%);*/
     color: white;
 }
 

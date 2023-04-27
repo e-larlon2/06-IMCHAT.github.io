@@ -22,7 +22,7 @@ function checkLogin() {
     const queryString = window.location.search;
     //console.log(queryString);
     const urlParams = new URLSearchParams(queryString);
-    const email = urlParams.get('email')
+    const uid = urlParams.get('uid')
     console.log(email);
     if (typeof(Storage) !== "undefined") {
         if (sessionStorage.uid) {
