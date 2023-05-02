@@ -1,9 +1,3 @@
-.place-div {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: auto;
-}
-
 .login-div,
 .sign-up-div {
     background-color: white;
@@ -20,14 +14,6 @@
     width: 15%;
 }
 
-.login-div {    
-
-}
-
-.sign-up-div {
-    
-}
-
 .username,
 .password {
     display: block;
@@ -38,13 +24,10 @@
 }
 
 .logo {
-    background: rgb(57, 74, 200);
-    background: radial-gradient(circle, rgb(54, 42, 225) 0%, rgb(14, 16, 58) 100%);
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    position: relative;
+    margin-top: 0;
+    margin: auto;
+    width: auto;
 }
 
 .logo img {

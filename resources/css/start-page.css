@@ -1,0 +1,45 @@
+
+.logo {
+    position: relative;
+    margin-top: 0;
+
+    margin: auto;
+    width: 400px;
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+.title,
+.sub-title {
+    text-align: center;
+    color: #505050;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.sub-title {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.navigation button{
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background: rgb(98, 178, 239);
+    color: white;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

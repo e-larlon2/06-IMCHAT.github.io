@@ -1,0 +1,101 @@
+.login-div,
+.sign-up-div {
+    background-color: white;
+    color: white;
+    border: 5px solid black;
+    border-radius: 15px 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 20%;
+    padding: 5%;
+    width: 15%;
+}
+
+.username,
+.password {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0, 2);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.logo {
+    position: relative;
+    margin-top: 0;
+    margin: auto;
+    width: auto;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.title,
+.sub-title {
+    text-align: center;
+    color: #505050;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.sub-title {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.form {
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.form input {
+    font-size: 18px;
+    padding: 10px 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.username,
+.password {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0, 2);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.form svg {
+    height: 25px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.signin-btn button{
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background: rgb(90, 106, 223);
+    color: white;
+    margin-bottom: 5px;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #505050;
+}
