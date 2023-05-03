@@ -6,21 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/home-page.css">
     <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/background.css">
 
 
-    <title>Document</title>
+    <title>Profile Page</title>
 </head>
 
 <body onload="checkLogin()">
     <div class="background-div">
-        <div class="topnav">
-            <a href="homepage.html">Home</a>
-            <a href="omOss.html">About</a>
-            <a class="active" href="profil.html">Profile</a>
-            <a href="../../index.html">Logg Ut</a>
-        </div>
         <div class="form">
             <div class="username">
                 <input id="change_name" type="text" placeholder="Username">
@@ -35,19 +29,25 @@
 
             <div class="sign-up">
                 <button onclick="signUp()">Sign Up</button>
-                <button onclick="createUser()">createUser</button>
             </div>
         </div>
 
 
-
-
-
-
-        <script src="../js/changeProfile.js"></script>
-        <script src="../js/loginHandler.js"></script>
+        <div class="div-1">
+            <div class="topnav">
+                <a class="active" href="homepage.html">Home</a>
+                <a href="profil.html">Profil</a>
+                <a href="../../index.html">Logg Ut</a>
+            </div>
+            <div class="info">
+                <h1>IM CHAT</h1>
+        <h3>Informasjonsteknologi og MedieProduksjon</h3>
+            </div>
+        </div>
     </div>
 
+   <!--<script src="../js/loginHandler.js"></script>--> 
+    <script src="../js/changeProfile.js"></script>
 </body>
 
 </html>

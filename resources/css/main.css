@@ -1,10 +1,12 @@
+/* felles css fil for bakgrunnen                             */
+
 * {
     font-family: 'Lato', 'sans-serif';
 }
 
 body {
     position: relative;
-    background: rgb(80, 95, 206);
+    background-color: rgb(98, 178, 239);
     background: radial-gradient(circle, rgb(42, 176, 225) 0%, rgb(48, 55, 186) 100%);
     color: white;
 }
@@ -16,31 +18,14 @@ body {
     border-radius: 15px 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     position: relative;
-    text-align: center;
     margin: auto;
+    text-align: center;
     margin-top: 5%;
-    margin-bottom: 5%;
     width: 70%;
-    height: 70%;
-    padding: 10%;
+    padding: 2%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 55% 45%;
     gap: 20px;
 }
 
-.startPG {
-    background-color: white;
-    color: black;
-    border: 5px solid black;
-    border-radius: 15px 50px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    position: relative;
-    text-align: center;
-    margin: auto;
-    margin-top: 8%;
-    width: 30%;
-    padding: 10%;
-
-
-}
 

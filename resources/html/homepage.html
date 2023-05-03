@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/home-page.css">
     <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/chat.css">
 
 
     <title>Home Page</title>
@@ -16,13 +16,26 @@
 <body onload="checkLogin()">
     <div class="background-div">
         <div class="chat-div">
-            <input type="text" placeholder="Write Something!">
+            <h2>Chat Messages</h2>
+
+            <div class="container">
+            <p id="txt"></p>
+            <span class="time-right"></span>
+            </div>
+
+            <div class="text">
+                <input id="input" type="text">
+                <button onclick="submitChat()">Send</button>
+            </div>
         </div>
+
+
+
+
         <div class="div-1">
             <div class="topnav">
                 <a class="active" href="homepage.html">Home</a>
-                <a href="omOss.html">About</a>
-                <a href="profil.html">Profile</a>
+                <a href="profil.html">Profil</a>
                 <a href="../../index.html">Logg Ut</a>
             </div>
             <div class="info">
@@ -32,7 +45,8 @@
         </div>
     </div>
 
-    <script src="../js/loginHandler.js"></script>
+   <!--<script src="../js/loginHandler.js"></script>--> 
+    <script src="../js/chat.js"></script>
 </body>
 
 </html>

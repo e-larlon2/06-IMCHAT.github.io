@@ -1,0 +1,48 @@
+/*  fil for home page                              */
+
+.chat-div {
+    background-color: rgb(61, 136, 194);
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+  .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+
+  .text {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    position: relative;
+    left:10px;
+  }
+
+  .text input {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0, 2);
+    padding: 10px;
+    margin: 10px 0;
+  }

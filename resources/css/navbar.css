@@ -1,7 +1,12 @@
+/*  css fil for menyen på sidene    */
+
 .topnav {
   overflow: hidden;
   background-color: white;
-  margin-bottom: 3%;
+  position: relative;
+  margin: auto;
+  left: 0px;
+  
 }
 
 .topnav a {
@@ -20,6 +25,6 @@
 }
 
 .topnav a.active {
-  background-color: #1a299a;
+  background-color: rgb(61, 136, 194);
   color: white;
 }
