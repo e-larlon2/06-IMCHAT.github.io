@@ -15,37 +15,49 @@
 
 <body onload="checkLogin()">
     <div class="background-div">
-        <div class="chat-div">
-            <h2>Chat Messages</h2>
 
-            <div class="container">
-            <p id="txt"></p>
-            <span class="time-right"></span>
-            </div>
-
-            <div class="text">
-                <input id="input" type="text">
-                <button onclick="submitChat()">Send</button>
+        <div class="div-container-1">
+            <div class="chat-div">
+                <h2>Chat Messages</h2>
+                <div id="chat-container"></div>
+                <div class="interact-div">
+                    <input type="text" id="message-input">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
             </div>
         </div>
 
 
 
 
-        <div class="div-1">
+        <div class="div-container-2">
             <div class="topnav">
                 <a class="active" href="homepage.html">Home</a>
+                <a href="aboutPage.html">About</a>
                 <a href="profil.html">Profil</a>
-                <a href="../../index.html">Logg Ut</a>
+                <a href="../../index.html">Logg Out</a>
             </div>
-            <div class="info">
-                <h1>IM CHAT</h1>
-        <h3>Informasjonsteknologi og MedieProduksjon</h3>
+
+            <div class="in-div-container-2">
+                <div class="info">
+                    <h1>IM CHAT</h1>
+                    <h3>Informasjonsteknologi og MedieProduksjon</h3>
+                </div>
+
+
+
             </div>
         </div>
     </div>
+    </div>
 
-   <!--<script src="../js/loginHandler.js"></script>--> 
+    <!-- Må hente inn eksterne rammeverk/bibliotek for å kunne laste inn js frå anna fil-->
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore-compat.js"></script>
+
     <script src="../js/chat.js"></script>
 </body>
 

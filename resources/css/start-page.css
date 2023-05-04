@@ -11,15 +11,15 @@
     margin: auto;
     margin-top: 8%;
     width: 30%;
-    padding: 10%;
+    padding: 5% 5%;
+    padding-top: 0;
 }
 
 .logo {
     position: relative;
     margin-top: 0;
-
     margin: auto;
-    width: 400px;
+    width: 600px;
 
 }
 
@@ -27,34 +27,33 @@
     width: 100%;
 }
 
-.title,
-.sub-title {
+.title {
     text-align: center;
     color: #505050;
-}
-
-.title {
     font-weight: bolder;
     font-size: 45px;
 }
 
-.sub-title {
-    font-size: 28px;
-    margin-top: 10px;
+.navigation {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10%;
+    margin-top: 10%;
 }
 
-.navigation button{
+.navigation a {
     width: 100%;
     padding: 12px 10px;
     border: none;
-    font-size: 18px;
-    border-radius: 30px;
-    background-color: rgb(98, 178, 239);
-    color: white;
+    font-size: 25px;
+    border-radius: 50px;
     margin-bottom: 5px;
+    background-color: rgb(48, 55, 186);
+    text-decoration: none;
+    color: white;
+    display: inline-block;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+a:hover {
+    background-color: rgb(73, 81, 226);
 }

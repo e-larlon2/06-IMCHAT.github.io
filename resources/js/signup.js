@@ -38,7 +38,7 @@ function login() {
   auth.signInWithEmailAndPassword(email, password)
     .then((userCredentials) => {
         sessionStorage.setItem("uid", userCredentials.user.uid)
-        window.location.href = "/resources/html/homepage.html?uid=" + userCredentials.user.uid;
+        window.location.href = "/resources/html/homepage.html?email=" + email;
      })
     .catch((error) => {
     console.error("Failed: " + error.message);      
@@ -61,7 +61,7 @@ function signUp() {
           userId: userCredentials.user.uid
       })
       .then(function () {
-          window.location.href = "/resources/html/homepage.html?uid=" + userCredentials.user.uid; 
+          window.location.href = "/resources/html/homepage.html?email=" + email; 
       })
 
       console.log(res.userCredentials)

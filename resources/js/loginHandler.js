@@ -22,11 +22,11 @@ function checkLogin() {
     const queryString = window.location.search;
     //console.log(queryString);
     const urlParams = new URLSearchParams(queryString);
-    const uid = urlParams.get('uid')
+    const email = urlParams.get('email')
     console.log(email);
     if (typeof(Storage) !== "undefined") {
         if (sessionStorage.uid) {
-        console.log(sessionStorage.getItem("uid"))
+        console.log(sessionStorage.getItem("email"))
         } else {
             console.log("bruker ikke innlogget")
             window.location.href = "../../index.html"

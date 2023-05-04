@@ -1,33 +1,26 @@
-.login-div,
+/*   css fil til sign in page       */
+
+.sign-up-div,
 .sign-up-div {
     background-color: white;
-    color: white;
     border: 5px solid black;
-    border-radius: 15px 50px;
+    border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     position: relative;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     width: 20%;
-    padding: 5%;
+    padding: 3%;
+    padding-top: 0;
     width: 15%;
 }
 
-.username,
-.password {
-    display: block;
-    border-radius: 30px;
-    border: 1px solid rgba(0, 0, 0, 0, 2);
-    padding: 10px;
-    margin: 10px 0;
-}
-
+/*      form style                    */
 .logo {
     position: relative;
     margin-top: 0;
     margin: auto;
-    width: auto;
 }
 
 .logo img {
@@ -53,7 +46,6 @@
 .form {
     width: 100%;
     margin-top: 30px;
-    
 }
 
 .form input {
@@ -64,30 +56,65 @@
     background: none;
 }
 
+.username,
+.password,
+.email {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0, 2);
+    padding: 10px;
+    margin: 10px 0;
+}
+
 .form svg {
-    height: 25px;
+    height: 30px;
     margin-bottom: -5px;
     margin-left: 10px;
     margin-right: 5px;
+    padding-right: 5%;
 }
 
-button.signin-btn {
+.sign-in-up-btn button {
     width: 100%;
     padding: 12px 10px;
     border: none;
     font-size: 18px;
     border-radius: 30px;
-    background: rgb(57, 74, 200);
-    background: radial-gradient(circle, rgb(54, 42, 225) 0%, rgb(14, 16, 58) 100%);
+    background: rgb(48, 55, 186);
     color: white;
     margin-bottom: 5px;
-}
-
-.sign-up {
+    display: grid;
+    grid-template-columns: auto;
+    text-decoration: none;
     text-align: center;
 }
 
+.sign-in-up-btn button:hover {
+    background-color: rgb(73, 81, 226);
+}
+
 a {
+    border-radius: 100px;
+    width: auto;
+    padding: 20px 20px;
+    border: none;
+    font-size: 20px;
+    background-color: darkred;
     text-decoration: none;
-    color: #505050;
+    text-align: center;
+    color: white;
+
+}
+
+.back-btn a {
+    position: absolute;
+    margin: auto;
+    left: 33%;
+}
+
+.sign-in a,
+.sign-up a {
+    position: absolute;
+    margin: auto;
+    left: 63%;
 }

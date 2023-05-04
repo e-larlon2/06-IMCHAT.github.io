@@ -15,38 +15,46 @@
 
 <body onload="checkLogin()">
     <div class="background-div">
-        <div class="form">
-            <div class="username">
-                <input id="change_name" type="text" placeholder="Username">
-            </div>
-            <div class="Email">
-                <input id="change_email" type="text" placeholder="Email">
-            </div>
-            <div class="password">
-                <input id="change_password" type="password" placeholder="Password">
-            </div>
+        <div class="div-container-1">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">First name:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" type="text" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Last name:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" type="text" value="bootdey">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Email:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" type="text" value="janesemail@gmail.com">
+                    </div>
+                </div>
 
-
-            <div class="sign-up">
-                <button onclick="signUp()">Sign Up</button>
-            </div>
+                <button>Apply</button>
         </div>
 
-
-        <div class="div-1">
+        <div class="div-container-2">
             <div class="topnav">
-                <a class="active" href="homepage.html">Home</a>
-                <a href="profil.html">Profil</a>
-                <a href="../../index.html">Logg Ut</a>
+                <a href="homepage.html">Home</a>
+                <a href="aboutPage.html">About</a>
+                <a class="active" href="profil.html">Profil</a>
+                <a href="../../index.html">Logg Out</a>
             </div>
             <div class="info">
                 <h1>IM CHAT</h1>
-        <h3>Informasjonsteknologi og MedieProduksjon</h3>
+                <h3>Informasjonsteknologi og MedieProduksjon</h3>
             </div>
         </div>
     </div>
+    </div>
 
-   <!--<script src="../js/loginHandler.js"></script>--> 
+    <!--<script src="../js/loginHandler.js"></script>-->
     <script src="../js/changeProfile.js"></script>
 </body>
 

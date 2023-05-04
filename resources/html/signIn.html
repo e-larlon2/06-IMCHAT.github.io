@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/background.css">
-    <link rel="stylesheet" href="../css/box.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/sign-in.css">
+    <link rel="stylesheet" href="../css/sign-form-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
@@ -17,11 +15,16 @@
 
 <body>
     <div class="back-btn">
-        <button><a href="../../index.html">Go back</a></button>
+        <a href="../../index.html">Go back</a>
     </div>
-    <div class="login-div">
+
+    <div class="sign-up">
+        <a href="signUp.html">Creat an account</a>
+    </div>
+
+    <div class="sign-up-div">
         <div class="logo">
-            <img src="../image/imlogomtekst_merke2sv1024_1.jpg" alt="IM logo" width="150">
+            <img src="../image/imlogomtekst_merke2sv1024_1.jpg" alt="IM logo">
         </div>
 
         <div class="title">Sign In to IM Chat</div>
@@ -44,15 +47,12 @@
                 </svg>
                 <input id="password" type="password" placeholder="Password">
             </div>
-            <div class="signin-btn">
+            <div class="sign-in-up-btn">
                 <button onclick="login()">Sign In</button>
             </div>
         </div>
-        
-        <div class="sign-up">
-            <button><a href="signUp.html">Creat an account</a></button>
-        </div>
     </div>
+
 
     <!-- Må hente inn eksterne rammeverk/bibliotek for å kunne laste inn js frå anna fil-->
     <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js"></script>
@@ -61,7 +61,6 @@
     <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-firestore-compat.js"></script>
 
-    <!--<script src="resources/js/database.js"></script>-->
     <script src="../js/signup.js"></script>
 </body>
 

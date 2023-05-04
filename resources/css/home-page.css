@@ -1,48 +1,38 @@
 /*  fil for home page                              */
 
 .chat-div {
-    background-color: rgb(61, 136, 194);
-    margin: 0 auto;
-    width: 80%;
-    height: 100%;
-    padding: 0 20px;
-    display: grid;
-    grid-template-columns: auto;
-  }
-  
-  .container {
-    border: 2px solid #dedede;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
-  }
-  
-  
-  .container::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  
-  .time-right {
-    float: right;
-    color: #aaa;
-  }
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  border-radius: 30px;
+}
 
-  .text {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
-    position: relative;
-    left:10px;
-  }
+#chat-container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  height: 30dvh;
+}
 
-  .text input {
-    display: block;
-    border-radius: 30px;
-    border: 1px solid rgba(0, 0, 0, 0, 2);
-    padding: 10px;
-    margin: 10px 0;
-  }
+#time {
+  float: right;
+  color: #aaa;
+}
+
+.interact-div {
+  display: grid;
+  grid-template-columns: 75% 20%;
+  gap: 20px;
+  position: relative;
+  left: 10px;
+}
+
+.interact-div input,
+button {
+  display: block;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0, 2);
+  margin: 10px 0;
+}

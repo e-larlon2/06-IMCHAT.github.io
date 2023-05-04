@@ -21,11 +21,29 @@ body {
     margin: auto;
     text-align: center;
     margin-top: 5%;
-    width: 70%;
     padding: 2%;
     display: grid;
     grid-template-columns: 55% 45%;
     gap: 20px;
+    height: 60dvh;
+    width: 80%;
 }
 
+.div-container-1 {
+    background-color: rgb(42, 176, 225);
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    border-radius: 30px;
+}
 
+.div-container-2 {
+    background-color: rgb(42, 176, 225);
+    border: 2px solid black;
+}
+
+/*
+.in-div-container-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}*/
