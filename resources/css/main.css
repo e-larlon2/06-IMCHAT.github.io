@@ -6,15 +6,24 @@
 
 body {
     position: relative;
-    background-color: rgb(98, 178, 239);
-    background: radial-gradient(circle, rgb(42, 176, 225) 0%, rgb(48, 55, 186) 100%);
+    /*background-color: rgb(98, 178, 239);
+    background: radial-gradient(circle, rgb(42, 176, 225) 0%, rgb(48, 55, 186) 100%);*/
+    background-image: url("../image/cool-background\ \(1\).png");
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
 .background-div {
-    background-color: white;
+    /*background-color: white;*/
     color: black;
-    border: 5px solid black;
+   /* border: 5px solid black;*/
     border-radius: 15px 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     position: relative;
@@ -30,20 +39,20 @@ body {
 }
 
 .div-container-1 {
-    background-color: rgb(42, 176, 225);
+    background-color: rgb(98, 178, 239);
+    background: radial-gradient(circle, rgb(42, 176, 225) 0%, rgb(48, 55, 186) 100%);
     margin: 0 auto;
     width: 80%;
     height: 100%;
     border-radius: 30px;
 }
 
-.div-container-2 {
-    background-color: rgb(42, 176, 225);
-    border: 2px solid black;
-}
 
-/*
 .in-div-container-2 {
+    background-color: rgb(98, 178, 239);
+    background: radial-gradient(circle, rgb(42, 176, 225) 0%, rgb(48, 55, 186) 100%);
     display: grid;
     grid-template-columns: 50% 50%;
-}*/
+    border-radius: 30px;
+}
+

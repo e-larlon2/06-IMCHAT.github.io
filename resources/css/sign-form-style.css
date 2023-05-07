@@ -2,8 +2,6 @@
 
 .sign-up-div,
 .sign-up-div {
-    background-color: white;
-    border: 5px solid black;
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     position: relative;
@@ -21,16 +19,19 @@
     position: relative;
     margin-top: 0;
     margin: auto;
+
 }
 
 .logo img {
     width: 100%;
+    border-radius: 30px;
+    padding-top: 8%;
 }
 
 .title,
 .sub-title {
     text-align: center;
-    color: #505050;
+    color: white
 }
 
 .title {
@@ -64,6 +65,7 @@
     border: 1px solid rgba(0, 0, 0, 0, 2);
     padding: 10px;
     margin: 10px 0;
+    color: white;
 }
 
 .form svg {
@@ -77,20 +79,21 @@
 .sign-in-up-btn button {
     width: 100%;
     padding: 12px 10px;
-    border: none;
     font-size: 18px;
-    border-radius: 30px;
-    background: rgb(48, 55, 186);
-    color: white;
+   /* background: rgb(48, 55, 186);*/
     margin-bottom: 5px;
     display: grid;
     grid-template-columns: auto;
     text-decoration: none;
     text-align: center;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .sign-in-up-btn button:hover {
+    border: 2px solid;
     background-color: rgb(73, 81, 226);
+    color: white;
 }
 
 a {
@@ -99,11 +102,12 @@ a {
     padding: 20px 20px;
     border: none;
     font-size: 20px;
-    background-color: darkred;
+   /* background-color: darkred;*/
     text-decoration: none;
     text-align: center;
     color: white;
-
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .back-btn a {

@@ -2,9 +2,9 @@
 
 .topnav {
   overflow: hidden;
-  background-color: white;
   position: relative;
   margin: auto;
+  margin-bottom: 3%;
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 20px;

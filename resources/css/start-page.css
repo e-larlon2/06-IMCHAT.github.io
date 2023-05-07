@@ -1,9 +1,9 @@
 /*  css fil berre for start siden        */
 
 .startPG {
-    background-color: white;
-    color: black;
-    border: 5px solid black;
+   /* background-color: white;*/
+    color: white;
+    /*border: 5px solid black;*/
     border-radius: 15px 50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     position: relative;
@@ -17,7 +17,7 @@
 
 .logo {
     position: relative;
-    margin-top: 0;
+    padding-top: 8%;
     margin: auto;
     width: 600px;
 
@@ -25,6 +25,7 @@
 
 .logo img {
     width: 100%;
+    border-radius: 30px;;
 }
 
 .title {
@@ -48,7 +49,9 @@
     font-size: 25px;
     border-radius: 50px;
     margin-bottom: 5px;
-    background-color: rgb(48, 55, 186);
+    /*background-color: rgb(48, 55, 186);*/
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     text-decoration: none;
     color: white;
     display: inline-block;

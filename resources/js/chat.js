@@ -1,24 +1,5 @@
 /////// js fil til homepage
 
-///////////////////////////////////////////////////////////
-// HER LEGGER DU INN INFOEN DIN FRÅ FIREBASE
-
-const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyA0XpKBRZZ8sjFIMtCFj3srR3oYTvD1hVc",
-    authDomain: "imchat-59439.firebaseapp.com",
-    projectId: "imchat-59439",
-    storageBucket: "imchat-59439.appspot.com",
-    messagingSenderId: "1056229018939",
-    appId: "1:1056229018939:web:ac37d090a0999d1ceb7b1e"
-});
-///////////////////////////////////////////////////////////
-
-/* Firebase config */
-const db = firebaseApp.firestore();
-const auth = firebaseApp.auth(); 
-
-/////////////////////////////////////////////////////
-
 function submitChat() {
     const input = document.getElementById("input").value;
     const today = new Date();
